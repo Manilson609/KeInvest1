@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investir - KeInvest</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-900 text-white min-h-screen p-4">
+  <header class="text-center mb-6">
+    <h1 class="text-3xl font-bold">Investir</h1>
+    <p class="text-sm text-gray-300">Escolha um valor e VIP para aplicar</p>
+  </header>
+
+  <main class="max-w-md mx-auto bg-blue-800 p-6 rounded shadow">
+    <form>
+      <label class="block mb-2 font-semibold">Valor do investimento (Kz)</label>
+      <input type="number" min="5000" max="500000" class="w-full p-2 rounded text-black mb-4" placeholder="Ex: 10.000">
+
+      <label class="block mb-2 font-semibold">Escolha o nível VIP</label>
+      <select class="w-full p-2 rounded text-black mb-4">
+        <option value="5000">VIP 1 - Kz 5.000</option>
+        <option value="10000">VIP 2 - Kz 10.000</option>
+        <option value="35000">VIP 3 - Kz 35.000</option>
+        <option value="55000">VIP 4 - Kz 55.000</option>
+        <option value="75000">VIP 5 - Kz 75.000</option>
+        <option value="120000">VIP 6 - Kz 120.000</option>
+        <option value="250000">VIP 7 - Kz 250.000</option>
+        <option value="300000">VIP 8 - Kz 300.000</option>
+        <option value="400000">VIP 9 - Kz 400.000</option>
+        <option value="500000">VIP 10 - Kz 500.000</option>
+      </select>
+
+      <button type="submit" class="w-full bg-white text-blue-900 font-bold py-2 px-4 rounded">Confirmar Investimento</button>
+    </form>
+  </main>
+</body>
+</html>
